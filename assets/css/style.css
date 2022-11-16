@@ -94,7 +94,7 @@ header {
     color: rgb(0, 0, 0);
 }
 
-.section-aboutus .section-aboutus-left .button {
+.section .section-left .button {
     padding: 13px 46px;
 }
 
@@ -185,7 +185,7 @@ header {
     background-color: var(--bg-light-gray);
 }
 
-.default.light.dl-aboutus {
+.default.light.dl {
     background: linear-gradient(750deg, #cc1111, var(--c-blue), #000000);
 }
 
@@ -220,28 +220,28 @@ footer {
 }
 
 /*CSS - Areas Specifies
-Section - About*/
-.section-aboutus {
+*/
+.section {
     display: flex;
 }
 
-.section-aboutus--left {
+.section--left {
     flex: 1;
 }
 
-.section-aboutus--left p {
+.section--left p {
     font-size: 18px;
     line-height: 25px;
     font-weight: 400;
     color: white
 }
 
-.section-aboutus--right {
+.section--right {
     width: 520px;
     text-align: center;
 }
 
-.section-aboutus--right img {
+.section--right img {
     width: 480px;
     box-shadow: 0px 6px 10px #333;
     border-radius: 3px;
@@ -277,7 +277,7 @@ Section - About*/
     .logoimg img {
         width: 60%;
         height: 60%;
-        margin-top: none;
+        margin-top: -40px;
     }
 
     .menu {
@@ -318,12 +318,7 @@ Section - About*/
         color: rgb(0, 0, 0);
     }
 
-
-    .section-aboutus .section-aboutus-left .button {
-        padding: 13px 46px;
-    }
-
-    .button.b-aboutus {
+    .button.b {
         background-color: #181818;
         text-align: center;
 
@@ -423,7 +418,7 @@ Section - About*/
         background-color: var(--bg-light-gray);
     }
 
-    .default.light.dl-aboutus {
+    .default.light.dl {
         background: linear-gradient(750deg, #cc1111, var(--c-blue), #000000);
     }
 
@@ -446,27 +441,27 @@ Section - About*/
     }
 
 
-    .section-aboutus {
+    .section {
         display: flex;
     }
 
-    .section-aboutus--left {
+    .section--left {
         flex: 1;
     }
 
-    .section-aboutus--left p {
+    .section--left p {
         font-size: 12px;
         line-height: 25px;
         font-weight: 400;
         color: white
     }
 
-    .section-aboutus--right {
+    .section--right {
         width: 100%;
         justify-content: center;
     }
 
-    .section-aboutus--right img {
+    .section--right img {
         width: 100%;
         display: flex;
         justify-content: center;
